@@ -1,6 +1,6 @@
 {
   "name": "react-reffect",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "Create components whose prop changes map to a global side effect with the power of redux and new Context API",
   "source": "src/index.js",
   "main": "lib/react-reffect.js",
@@ -35,9 +35,9 @@
   "author": "Bin Hou (https://github.com/kouhin)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gaearon/react-side-effect/issues"
+    "url": "https://github.com/openameba/react-reffect/issues"
   },
-  "homepage": "https://github.com/gaearon/react-side-effect",
+  "homepage": "https://github.com/openameba/react-reffect",
   "contributors": [
     "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
     "Louis DeScioli <louis.descioli@gmail.com>"
@@ -89,6 +89,7 @@
   "files": [
     "LICENSE",
     "README.md",
-    "lib/"
+    "lib",
+    "src"
   ]
 }

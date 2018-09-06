@@ -13,29 +13,7 @@ const config = {
       react: "React"
     }
   },
-  plugins: [
-    babel({
-      babelrc: false,
-      presets: [
-        "@babel/react",
-        [
-          "@babel/preset-env",
-          {
-            loose: true,
-            modules: false,
-            targets: {
-              node: "current"
-            }
-          }
-        ]
-      ],
-      plugins: [
-        "@babel/plugin-proposal-object-rest-spread",
-        "@babel/plugin-proposal-class-properties"
-      ],
-      exclude: "node_modules/**"
-    })
-  ],
+  plugins: [babel()],
   external: [
     "exenv",
     "hoist-non-react-statics",

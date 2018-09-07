@@ -1,6 +1,6 @@
 {
   "name": "react-reffect",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Create components whose prop changes map to a global side effect with the power of redux and new Context API",
   "source": "src/index.js",
   "main": "lib/react-reffect.js",

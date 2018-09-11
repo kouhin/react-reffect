@@ -42,10 +42,8 @@
     "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
     "Louis DeScioli <louis.descioli@gmail.com>"
   ],
-  "peerDependencies": {
-    "react": ">=16.3"
-  },
   "dependencies": {
+    "create-react-context": "^0.2.3",
     "exenv": "^1.2.2",
     "hoist-non-react-statics": "^3.0.1",
     "prop-types": "^15.6.2",

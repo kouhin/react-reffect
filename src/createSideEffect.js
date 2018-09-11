@@ -1,11 +1,12 @@
 import React from "react";
 import { createStore, applyMiddleware } from "redux";
+import createReactContext from "create-react-context";
 
 import rootReducer from "./modules";
 import createProvider from "./createProvider";
 import createConsumer from "./createConsumer";
 
-const createContext = React.createContext;
+const createContext = React.createContext || createReactContext;
 
 export default function createSideEffect(
   reducePropsToState,
